@@ -72,8 +72,7 @@ You can easily customize:
 - Modify animations and transitions
 
 ## Created By
-
-**Assignment:** Colour Changing Button Panel
+**Moloy Biswas**
 **Date:** May 28, 2026
 
 ---
