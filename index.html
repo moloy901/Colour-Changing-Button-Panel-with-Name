@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Changing Button Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Colour Changing Panel</h1>
+        
+        <div class="name-input-group">
+            <input type="text" id="personName" placeholder="Enter your name" maxlength="30">
+        </div>
+        
+        <div class="colour-box" id="colourBox">
+            <div class="colour-box-text" id="colourBoxText">Welcome!</div>
+        </div>
+        
+        <div class="colour-display" id="colourDisplay">Current colour: Red</div>
+        
+        <div class="input-group">
+            <input type="text" id="colourInput" placeholder="Colour name" readonly>
+        </div>
+        
+        <div class="button-group">
+            <button class="colour-btn" id="redBtn" onclick="changeColour('Red', '#ff6b6b')">Red</button>
+            <button class="colour-btn" id="blueBtn" onclick="changeColour('Blue', '#4ecdc4')">Blue</button>
+            <button class="colour-btn" id="greenBtn" onclick="changeColour('Green', '#51cf66')">Green</button>
+            <button class="colour-btn" id="yellowBtn" onclick="changeColour('Yellow', '#ffd93d')">Yellow</button>
+            <button class="colour-btn" id="purpleBtn" onclick="changeColour('Purple', '#9b59b6')">Purple</button>
+            <button class="colour-btn" id="orangeBtn" onclick="changeColour('Orange', '#ff9500')">Orange</button>
+        </div>
+        
+        <button class="reset-btn" onclick="resetColour()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
